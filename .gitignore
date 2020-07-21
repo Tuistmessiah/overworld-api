@@ -6,9 +6,13 @@
 .env.development.local
 .env.production.local
  
+# generated
+built
+
 # credentials
-/database/db-configuration.json
-/server-configuration.json
+src/database/db-configuration.json
+src/server-configuration.json
 
 # ide
 .vscode
+.prettierrc.json
